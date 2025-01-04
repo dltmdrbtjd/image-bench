@@ -1,0 +1,25 @@
+{
+  "name": "node-sharp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-sharp"
+  },
+  "author": "dltmdrbtjd@us-all.co.kr",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
